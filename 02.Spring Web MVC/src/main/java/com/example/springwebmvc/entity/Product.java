@@ -1,11 +1,18 @@
 package com.example.springwebmvc.entity;
 
 import jakarta.persistence.*;
-
+/*
+Con @entity indicamos que es un beans para que pueda usarlo en otros frameworks.
+Con @Table, indicamos que va a ser tratada también como una tabla de base de datos para JPA.
+ */
 @Entity
 @Table(name = "products")
 public class Product {
 
+    /*
+    @Id sobre private Long id, indicamos que va a ser el identificador de nuestros objetos.
+    @GeneratedValue nos genera automáticamente el id de los objetos.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -15,7 +15,9 @@ public class App {
 
         ApplicationContext context = SpringApplication.run(App.class, args);
         var repository = context.getBean(ProductRepository.class);
-
+        /*
+        Le inyectamos los objetos mediante constructor
+         */
         List<Product> products = List.of(
             new Product(null, "product1", 5.99, 1),
             new Product(null, "product2", 6.99, 2),
@@ -24,6 +26,9 @@ public class App {
             new Product(null, "product5", 8.99, 2),
             new Product(null, "product6", 8.99, 2)
         );
+        /*
+        Una vez inyectados los guardamos en el repositorio
+         */
         repository.saveAll(products);
     }
 

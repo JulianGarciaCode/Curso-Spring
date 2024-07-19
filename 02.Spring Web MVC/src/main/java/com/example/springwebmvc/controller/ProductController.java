@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
-
+/*
+@Controller indica que va a ser la clase controladora de Spring
+@RequestMapping indica la ruta
+ */
 @Controller
 @RequestMapping("/products")
 public class ProductController {
@@ -24,6 +27,8 @@ public class ProductController {
 
     /*
     GET http://localhost:8080/products
+
+    Devuelve el formulario que debe mostrar product list.html
      */
     @GetMapping
     public String findAll(Model model){
