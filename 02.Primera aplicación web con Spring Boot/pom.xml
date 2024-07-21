@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-web-mvc</artifactId>
+    <artifactId>Primera aplicación web con Spring Boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring web mvc</name>
     <description>spring web mvc</description>

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>SpringBoot-Api-Rest</artifactId>
+    <artifactId>Primera Api Rest SpringBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBoot Api Rest</name>
     <description>SpringBoot Api Rest</description>
