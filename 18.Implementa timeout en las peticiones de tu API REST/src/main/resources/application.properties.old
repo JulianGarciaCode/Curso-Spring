@@ -1,0 +1,5 @@
+spring.application.name=spring-timeout
+
+#Con esta propiedad cuando hagamos unas petición como un callable
+#podemos establecer un tiempo límite para hacer las llamadas a las clases
+spring.mvc.async.request-timeout=2s
