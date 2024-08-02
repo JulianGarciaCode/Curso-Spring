@@ -45,7 +45,7 @@ public class EmployeeController {
             if (employees != null)
                 System.out.println(employees);
 
-            if(ex != null)
+            if (ex != null)
                 System.out.println(ex.getMessage());
         });
     }
